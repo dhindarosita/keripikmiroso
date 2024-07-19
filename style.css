@@ -1,0 +1,201 @@
+/* CSS (in style.css file) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  /* Body */
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  /* Header */
+  header {
+    background-color: #ffffff;
+    padding: 50px;
+  }
+  
+  .logo {
+    float: right;
+    position:absolute;
+    top: 25px;
+    left: 20px;
+    
+
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: white;
+    color: #333;
+  }
+  
+ /* Banner CSS */
+.banner {
+  background-image: url('16850345_5807122.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 220px; /* Adjust padding as needed */
+  display: flex; /* Enable flexbox layout */
+  flex-direction: column; /* Arrange elements vertically */
+  align-items: center; /* Center elements horizontally */
+}
+
+.banner-content {
+  text-align: center; /* Center text within the content area */
+  color: #333; /* Use white text for better contrast */
+  width: 80%; /* Limit content width */
+}
+
+h1 {
+  font-size: 36px; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+p {
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.5; /* Increase line spacing for readability */
+}
+  
+  /* Produk */
+  .produk {
+    padding: 40px;
+  }
+  
+  .produk h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .produk-item {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .produk-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .produk-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .produk-item p {
+    margin-bottom: 10px;
+  }
+  
+  .produk-item button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Tentang Kami */
+  .tentang-kami {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tentang-kami img {
+    width: 0%;
+    margin-bottom: 20px;
+  }
+  
+  .tentang-kami p {
+    line-height: 1.5;
+  }
+  
+  /* Kontak */
+  .kontak {
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .kontak form {
+    width: 50%;
+    margin: 0 auto;
+
+  }
+  
+  .kontak label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .kontak input,
+  .kontak textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .kontak input[type="submit"] {
+    background-color: #0099ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #333;
+  }
+  
+  footer i {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
